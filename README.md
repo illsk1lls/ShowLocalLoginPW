@@ -14,7 +14,7 @@ Administrator rights are required as the script uses VSS to be able to do this o
 
 This works ONLY for local users. It will not work for MS accounts.
 
-The script uses VSS to copy the SYSTEM and SAM registry hives to a temp folder, then Mimikatz performs a lsadump on the copied hives, and gets NTLM hashes for each local user.  JohnTheRipper is then used against the hashes in an attempt to reveal the passwords for each local user.  The amount of time required to reveal the password is related to the complexity of the password.  For simple passwords the script should work almost instantly.
+The script uses VSS to copy the SYSTEM and SAM registry hives to a temp folder, then Mimikatz performs a lsadump on the copied hives, and gets NTLM hashes for each local user.  JohnTheRipper is then used against the hashes in an attempt to reveal the passwords for each local user.  The amount of time required to reveal passwords is related to the complexity of the passwords.  For simple passwords or passwords containing the username the script should work almost instantly. For users without passwords only the username will be displayed and the password area will be blank.
 
 ### A good example of a real world use case:
 
