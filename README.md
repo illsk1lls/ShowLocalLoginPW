@@ -1,6 +1,6 @@
 # ShowLocalLoginPW
  
-ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING IT JOB - It is protecting the system login passwords!
+ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords!
 
 Administrator rights are required as the script uses VSS to be able to do this on a live system
 
