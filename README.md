@@ -8,10 +8,13 @@ In MOST cases you will need to disable AV<br>
 JohnTheRipper - <a href="https://github.com/openwall/john">https://github.com/openwall/john</a><br>
 Mimikatz - <a href="https://github.com/gentilkiwi/mimikatz">https://github.com/gentilkiwi/mimikatz</a><br>
 7zip - <a href="https://www.7-zip.org/">https://www.7-zip.org/</a><br>
+*The above pre-reqs are retrieved by the script automatically during execution, and removed when the script is complete*
 
 Administrator rights are required as the script uses VSS to be able to do this on a live system
 
 This works ONLY for local users. It will not work for MS accounts.
+
+The script uses VSS to copy the SYSTEM and SAM registry hives to a temp folder, then Mimikatz performs a lsadump on the copied hives, and gets NTLM hashes for each local user.  JohnTheRipper is then used against the hashes in an attempt to reveal the passwords for each local user.  The amount of time required to reveal the password is related to the complexity of the password.  For simple passwords the script should work almost instantly.
 
 ### A good example of a real world use case:
 
