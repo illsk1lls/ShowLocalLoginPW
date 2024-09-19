@@ -1,6 +1,8 @@
 # Show LOCAL Windows Login Passwords
  
-ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords! In MOST cases you will need to disable AV to use this script.
+ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB<br>
+It is protecting the system login passwords!<br>
+In MOST cases you will need to disable AV to use this script.<br>
 
 **Credit To:**<br>
 JohnTheRipper - <a href="https://github.com/openwall/john">https://github.com/openwall/john</a><br>
