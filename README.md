@@ -1,4 +1,4 @@
-# ShowLocalLoginPW
+# Show LOCAL Windows Login Passwords
  
 ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords!
 
