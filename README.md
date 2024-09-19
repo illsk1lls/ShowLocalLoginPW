@@ -4,6 +4,11 @@
  
 ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING IT JOB - It is protecting the system passwords!
 
+**Credit To:**<br>
+JohnTheRipper - <a href="https://github.com/openwall/john">https://github.com/openwall/john</a><br>
+Mimikatz - <a href="https://github.com/gentilkiwi/mimikatz">https://github.com/gentilkiwi/mimikatz</a><br>
+7zip - <a href="https://www.7-zip.org/">https://www.7-zip.org/</a><br>
+
 Administrator rights are required as the script uses VSS to be able to do this on a live system
 
 A good example of a real world use case:
