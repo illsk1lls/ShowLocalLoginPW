@@ -1,6 +1,6 @@
 # Show LOCAL Windows Login Passwords
  
-ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords!
+ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords! In MOST cases you will need to disable AV to use this script.
 
 Administrator rights are required as the script uses VSS to be able to do this on a live system
 
