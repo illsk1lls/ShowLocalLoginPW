@@ -1,6 +1,6 @@
 # Show LOCAL Windows Login Passwords
  
-ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords! In MOST cases you will need to disable AV to use this script.
+ANTIVIRUS WILL FLAG THIS SCRIPT - THE AV IS DOING ITS JOB - It is protecting the system login passwords! Mimikatz creates a NTLM hash for JohnTheRipper to use. In MOST cases you will need to disable AV.
 
 **Credit To:**<br>
 JohnTheRipper - <a href="https://github.com/openwall/john">https://github.com/openwall/john</a><br>
